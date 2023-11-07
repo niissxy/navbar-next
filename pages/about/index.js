@@ -15,7 +15,7 @@ const about = ({ data }) => {
     <h1>Ini halaman about</h1>
     {data.map((item) => (
         <div key={item.id}>
-             <Link href={`/about/${item.id}`}>
+            <Link href={`/about/${item.id}`}>
             <h2>{item.name}</h2>
             </Link>
         </div>
